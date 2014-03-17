@@ -55,10 +55,8 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 # Theme and plugins
 #  Theme requires http://github.com/duilio/pelican-octopress-theme/
 #  Plugins require http://github.com/getpelican/pelican-plugins/
-THEME = os.path.join(os.environ.get('HOME'),
-                     'Opensource/jcsdoorsolutions.com-theme/')
-PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
-                           'Opensource/jcsdoorsolutions.com-plugins')
+THEME = os.path.join('jcsdoorsolutions.com-theme/')
+PLUGIN_PATH = os.path.join('jcsdoorsolutions.com-plugins')
 PLUGINS = ['summary']
 
 SHOW_SUMMARY = False
