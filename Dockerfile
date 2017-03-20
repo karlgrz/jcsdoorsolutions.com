@@ -1,6 +1,6 @@
 FROM karlgrz/ubuntu-14.04-base-nginx
 VOLUME [ "/var/log/nginx" ]
-EXPOSE 8002
+EXPOSE 8004
 
 ADD root /
 
